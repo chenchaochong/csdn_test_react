@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="110px" viewBox="0 0 264 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ad1</title>
+    <defs>
+        <linearGradient x1="100%" y1="57.9724861%" x2="1.56102036%" y2="41.9066766%" id="linearGradient-1">
+            <stop stop-color="#373B85" offset="0%"></stop>
+            <stop stop-color="#6365C2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="客户端" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="评论（图片）" transform="translate(-1336.000000, -1973.000000)">
+            <g id="编组-6" transform="translate(320.000000, 1502.000000)">
+                <g id="ad1" transform="translate(1016.000000, 471.000000)">
+                    <rect id="矩形" fill="url(#linearGradient-1)" x="0" y="0" width="264" height="110" rx="3"></rect>
+                    <text id="低至¥0.8/天-开通会员" font-family="PingFangSC-Semibold, PingFang SC" font-size="20" font-weight="500" fill="#FFFFFF">
+                        <tspan x="33" y="51">低至¥0.8/天 开通会员</tspan>
+                    </text>
+                    <text id="全年预计可省¥30000" font-family="PingFangSC-Light, PingFang SC" font-size="14" font-weight="300" fill="#FFFFFF">
+                        <tspan x="65" y="77">全年预计可省¥30000</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,311 @@
+.main-container {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .top-container {
+    margin-top: 41px;
+    margin-bottom: 40px;
+    width: 1280px;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+      .top {
+        font-size: 36px;
+        color: #333333;
+        line-height: 50px;
+      }
+
+      .bottom {
+        margin-top: 24px;
+        font-size: 14px;
+        color: #666666;
+        line-height: 20px;
+      }
+    }
+
+    .right {
+      .top {
+        display: flex;
+        align-items: center;
+        height: 40px;
+
+        .btn {
+          background: #f16d29;
+          border-radius: 5px;
+          width: 80px;
+          height: 32px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+          font-size: 14px;
+          // margin-left: 73px;
+        }
+
+        .name {
+          height: 40px;
+          margin-left:10px;
+          margin-right: 47px;
+
+          .name-top {
+            font-size: 16px;
+            color: #333333;
+            line-height: 22px;
+          }
+
+          .name-bottom {
+            font-size: 12px;
+            color: #333333;
+          }
+        }
+      }
+
+      .bottom {
+        margin-top: 29px;
+        display: flex;
+        align-items: center;
+        height: 18px;
+
+        .num {
+          font-size: 13px;
+          color: #999999;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+
+  .divid {
+    height: 1px;
+    width: 100%;
+    background-color: #eee;
+  }
+
+  .pic1 {
+    width: 1000px;
+    height: 468px;
+    margin-top: 50px;
+    margin-bottom: 28px;
+  }
+
+  .pic2 {
+    width: 1000px;
+    height: 468px;
+  }
+
+  .praisebig {
+    width: 68px;
+    height: 68px;
+    border-radius: 68px;
+    background-color: #f16d29;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+
+    img {
+      width: 24px;
+      height: 26px;
+    }
+
+    .num {
+      font-size: 14px;
+      color: #ffffff;
+      letter-spacing: 0;
+      line-height: 14px;
+      margin-top: 6px;
+    }
+  }
+
+  .shengming {
+    width: 1280px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+      font-size: 12px;
+      color: #333333;
+      letter-spacing: 0;
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+
+      .text {
+        font-size: 12px;
+        color: #999999;
+        letter-spacing: 0;
+        line-height: 12px;
+        margin-left: 6px;
+      }
+
+      .btn {
+        border: 1px solid #bbbbbb;
+        border-radius: 4px;
+        width: 86px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .pinglun {
+    background-color: #f7f7f7;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    .main {
+      width: 1280px;
+      display: flex;
+      justify-content: space-between;
+
+      .left-container {
+        background: #fff;
+        padding: 20px;
+        width: 952px;
+
+        .title {
+          font-size: 20px;
+          color: #333333;
+        }
+        .area {
+          margin-top: 24px;
+          position: relative;
+          .TextArea {
+            background: #f7f7f7;
+            border-radius: 8px;
+            margin-top: 24px;
+            height: 75px;
+            font-size: 14px;
+            color: #666666;
+            line-height: 20px;
+          }
+          .btn {
+            position: absolute;
+            bottom: 12px;
+            right: 12px;
+            width:83px;
+            height: 32px;;
+            background: #F16D29;
+            border-radius: 5px;
+            color:#fff;
+          }
+        }
+
+        .tabs {
+          margin-top: 32px;
+          margin-left: 10px;
+          font-size: 16px;
+          margin-bottom: 11px;
+          display: flex;
+          align-items: center;
+
+          .tab {
+            margin-right: 50px;
+          }
+
+          .active {
+            color: #ff6a00;
+          }
+        }
+
+        .info {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 100px;
+          border-bottom: 1px solid #f1f1f1;
+
+          .left {
+            .top {
+              font-size: 14px;
+              color: #333333;
+              line-height: 20px;
+            }
+
+            .time {
+              font-size: 14px;
+              color: #999999;
+              line-height: 18px;
+              margin-top: 6px;
+            }
+          }
+
+          .right {
+            .num {
+              font-size: 14px;
+              color: #f16d29;
+              margin-left: 8px;
+            }
+          }
+        }
+        .nomore {
+          font-size: 14px;
+          color: #999999;
+          line-height: 20px;
+          padding: 16px;
+          text-align: center;
+        }
+      }
+      .right-container {
+        width: 224px;
+        .zuo {
+          width: 224px;
+          background-color: #fff;
+          padding: 20px;
+          .title {
+            height: 56px;
+            border-bottom: 1px solid #eee;
+          }
+          .time,
+          .text,
+          .jieshao {
+            font-size: 13px;
+            color: #333333;
+            letter-spacing: 0;
+            line-height: 24px;
+          }
+        }
+        .biaoqian {
+          margin-top: 14px;
+          width: 224px;
+          background-color: #fff;
+          padding: 20px;
+          .title {
+            height: 56px;
+            border-bottom: 1px solid #eee;
+          }
+          .di-flex {
+            display: flex;
+            flex-wrap: wrap;
+          }
+          .di {
+            margin-top: 24px;
+            margin-right: 10px;
+            border: 1px solid #bbbbbb;
+            border-radius: 3px;
+            width: 27%;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

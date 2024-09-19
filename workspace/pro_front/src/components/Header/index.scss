@@ -1,0 +1,68 @@
+.header-container {
+  background: #ffffff;
+  box-shadow: 0 2px 4px 2px rgba(213, 213, 213, 0.5);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .header {
+    width: 1280px;
+    height: 54px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    .logo img {
+      width: 93px;
+      height: 32px;
+    }
+    .header-tabs {
+      display: flex;
+      width: 700px;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 177px;
+      .tab {
+        text-align: left;
+        font-size: 16px;
+        color: #333333;
+        letter-spacing: 0;
+      }
+      .input-box {
+        background: #f2f2f2;
+        border: 1px solid #e9e9e9;
+        border-radius: 16px;
+        width: 300px;
+        height: 28px;
+        padding: 2px 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .input {
+        border: 0;
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #999999;
+        letter-spacing: 0;
+        background: none;
+      }
+    }
+    .right {
+      margin-left: 141px;
+      display: flex;
+      align-items: center;
+      .text {
+        margin-left: 12px;
+        font-size: 14px;
+        color: #333333;
+        letter-spacing: 0;
+      }
+      .dev {
+        width: 1px;
+        height: 14px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background: #979797;
+      }
+    }
+  }
+}

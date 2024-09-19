@@ -1,0 +1,111 @@
+.admin-container {
+  margin-top: 20px;
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+
+  .left-container {
+    background: #304156;
+    width: 15%;
+    padding: 20px;
+    color: #eee;
+
+    .nav {
+      display: flex;
+    }
+  }
+
+  .right-container {
+    width: 85%;
+
+    .top-container {
+      width: 100%;
+      height: 52px;
+      background: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 32px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 12px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .info-btn {
+    background: #ffffff;
+    border: 1px solid #dddfe6;
+    border-radius: 4px;
+    width: 60px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .zhezhao {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    left: 0;
+    top: 0;
+    .content-container {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 800px;
+      height: 486px;
+      margin-left: -414px;
+      margin-top: -263px;
+      background: #ffffff;
+      border-radius: 3px;
+      padding: 14px 20px;
+      overflow:scroll;
+      .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .title {
+          background: #ffffff;
+          border-radius: 3px;
+        }
+        .close{
+          width: 12px;
+          height: 12px;
+        }
+      }
+      .search-container {
+        margin-top: 33px;
+        display: flex;
+        align-items: center;
+        .input-box {
+          width: 333px;
+          display: flex;
+          border: 1px solid #cccccc;
+          border-radius: 2px;
+          padding: 8px 10px;
+          .input {
+            margin-left: 10px;
+            font-size: 14px;
+            color: #999999;
+            border: 0;
+          }
+        }
+        .search-btn {
+          background: #1890ff;
+          border-radius: 2px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 65px;
+          height: 32px;
+          margin-left: 10px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

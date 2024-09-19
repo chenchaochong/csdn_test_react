@@ -1,0 +1,6 @@
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+../../../考试/21081612350720331629088507/workspace/answer/.env
+.phpunit.result.cache
